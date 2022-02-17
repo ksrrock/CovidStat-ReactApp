@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Covid Statistics React App
+This is a react app that fetches data from Rest endpoints provided at https://rapidapi.com/axisbits-axisbits-default/api/covid-19-statistics/.
 
 ## Available Scripts
 
