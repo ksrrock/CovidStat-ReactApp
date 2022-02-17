@@ -16,11 +16,8 @@ export const Header = () => {
            <Link to="/reports" style={{color:'white',textDecoration:'none'}}> Reports </Link>
            </li> 
            <li>
-           <Link to="/" style={{color:'white',textDecoration:'none'}}> Home </Link>
+           <Link to="/CovidStat-ReactApp" style={{color:'white',textDecoration:'none'}}> Home </Link>
            </li> 
-          
-            
-           
         </ul>
     </div>
   )

@@ -12,7 +12,7 @@ function App() {
     <div className="App">
     <Header/>
     <Routes>
-      <Route exact path="/" element={<Home/>}></Route>
+      <Route exact path="/CovidStat-ReactApp" element={<Home/>}></Route>
       <Route exact path="/countries" element={<Countries/>}></Route>
       <Route exact path="/countries/:country/provinces" element={<Provinces/>}></Route>
       <Route exact path="/countries/:country/provinces/:province/report" element={<ProviceReport/>}></Route>
