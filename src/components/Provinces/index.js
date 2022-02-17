@@ -8,6 +8,7 @@ import {Link} from 'react-router-dom'
 export const Provinces = () => {
   const {country}=useParams();
   const [provinces, setProvinces] = useState([]);
+  const [loadState,setLoadState]=useState(false);
 
   var options = {
     method: 'GET',
@@ -25,6 +26,7 @@ export const Provinces = () => {
       const newProvinces=provinceList.filter(item=> item.province && item.province.indexOf(' ')<0)
       console.log(newProvinces)
       setProvinces(newProvinces)
+      setLoadState(true)
     }).catch(function (error) {
       console.error(error);
     });
@@ -54,16 +56,22 @@ export const Provinces = () => {
                 </div>
                  <br></br>
             </div>
-
               })
             }
 
           </div>
         :
+         loadState?
           <div className="container">
-            <div class="alert alert-primary" role="alert">
-          Loading...
+            <div class="alert alert-danger" role="alert">
+            No provinces retured by Server
+           </div>
         </div>
+        :
+        <div className="container">
+           <div class="alert alert-primary" role="alert">
+            Loading....
+           </div>
         </div>
       }
 
