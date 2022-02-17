@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React from 'react'
 import { useEffect,useState } from 'react';
 import { useParams } from 'react-router'
@@ -75,32 +76,3 @@ export const Provinces = () => {
 export default Provinces
 
 
-
-{/* {
-    
-    provinces.length>0?
-    {
-      provinces.map(item=>{
-        return item.province && item.province.indexOf(' ')<0?
-        <div className="container w-50">
-            <div class="card">
-             <div class="card-body">
-                 <h5 class="card-title">{item.province}</h5>
-                 <h6 class="card-subtitle mb-2 text-muted">{item.name}</h6>
-                 <h6 class="card-subtitle mb-2 text-muted">{item.iso}</h6>
-                 <Link className="btn btn-primary" to={`/countries/${item.iso}/provinces/${item.province}/report`}>View Stat</Link>
-              </div>
-            </div>
-             <br></br>
-        </div>
-      })
-    }
-    :
-      <div className="container">
-         <div class="alert alert-danger" role="alert">
-        No Provinces
-      </div>
-      </div>
-  }
-    </div>
-) */}
