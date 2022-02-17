@@ -1,5 +1,5 @@
 # Covid Statistics React App
-This is a react app that fetches data from Rest endpoints provided at https://rapidapi.com/axisbits-axisbits-default/api/covid-19-statistics/.
+This is a react app that fetches data from Rest endpoints provided at `https://rapidapi.com/axisbits-axisbits-default/api/covid-19-statistics/`
 
 ## Available Scripts
 
