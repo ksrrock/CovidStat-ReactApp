@@ -3,7 +3,7 @@ This is a react app that fetches data from Rest endpoints provided at
 ##### `https://rapidapi.com/axisbits-axisbits-default/api/covid-19-statistics/`
 
 # App is hosted at
-
+https://ksrrock.github.io/CovidStat-ReactApp
 
 
 ## Available Scripts
